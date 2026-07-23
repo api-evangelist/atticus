@@ -1,8 +1,13 @@
 aid: atticus
 name: Atticus
-description: 'Atticus is a company surfaced as a portfolio company of forerunner-ventures, true-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Atticus is a consumer legal-technology law firm, launched in 2019 and backed by Forerunner
+  Ventures, True Ventures, and GV, that helps Americans in crisis get the benefits and aid they deserve.
+  It began with Social Security Disability and has expanded to workers'' compensation, VA benefits, and
+  other government-aid programs. Atticus combines a free online qualification quiz, on-staff lawyers and
+  client advocates reachable by phone, text, or chat, and a matching engine that connects each client
+  with vetted attorneys from a network of 100+ top firms who work on contingency. It has helped tens of
+  thousands of people access billions of dollars in life-changing aid. Atticus is a consumer-facing
+  service company and does not publish a public developer API, SDKs, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/atticus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +16,30 @@ x-backed-by:
 - true-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://images.atticus.com/logos/og_logo.png
 tags:
 - Company
 - Consumer
+- Legal
+- Legal Tech
+- Disability Benefits
+- Workers Compensation
+- Government Benefits
+- Access to Justice
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/atticus-domain-security.yml
 - type: Website
   url: https://www.atticus.com
+- type: Support
+  url: https://help.atticus.com/en/
+- type: Blog
+  url: https://www.atticus.com/advice
+- type: TermsOfService
+  url: https://www.atticus.com/terms
+- type: PrivacyPolicy
+  url: https://www.atticus.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
